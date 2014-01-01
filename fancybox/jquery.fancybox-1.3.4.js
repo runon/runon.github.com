@@ -421,6 +421,7 @@
 			wrap.removeAttr("style");
 
 			content.css('border-width', currentOpts.padding);
+			content.css('background-color', 'white');
 
 			if (currentOpts.transitionIn == 'elastic') {
 				start_pos = _get_zoom_from();
