@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="runon" ng-controller="AppCtrl">
+<head>
+    <title>runon</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+    <link href="css/runon.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
+</head>
+<body>
+<div id="content">
+    <div class="header">
+        <div class="logo">
+            <a href="#">
+                <img src="images/logo.png" alt="runon"/>
+            </a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="/" ng-class="{active: page=='home'}">Home</a></li>
+                <li><a href="/#/about" ng-class="{active: page=='about'}">About</a></li>
+                <li><a href="/#/bicycle" ng-class="{active: page=='bicycle'}">Bicycle</a></li>
+                <li><a href="/#/product" ng-class="{active: page=='product'}">Product</a></li>
+                <li><a href="/#/contact" ng-class="{active: page=='contact'}">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div ng-view id="view"></div>
+    </div>
+    <div class="footer">
+        <div class="copyright"><span>&copy; 2014 runon, all rights reserved.</span></div>
+    </div>
+</div>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/angular-route.min.js"></script>
+<script src="js/angular-animate.min.js"></script>
+<script src="fancybox/jquery.easing-1.3.pack.js"></script>
+<script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script src="fancybox/jquery.fancybox-min.js"></script>
+<script src="js/simple.carousel.js"></script>
+<script src="js/runon.js?ver1.0.0"></script>
+</body>
+</html>

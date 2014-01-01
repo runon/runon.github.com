@@ -1,0 +1,571 @@
+* {
+    margin: 0;
+    top: 0;
+}
+
+body {
+    font-family: "Times", "Times New Roman", "Garamond", "Caslon", "Adobe Caslon", serif !important;
+}
+
+h1, h2, h3 {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: normal;
+}
+
+a img.thumb {
+    border: 1px solid #BBB;
+    padding: 2px;
+    margin: 10px 20px 10px 0;
+    vertical-align: top;
+}
+
+.clear {
+    clear: both;
+}
+
+.prev {
+    cursor: pointer;
+}
+
+.next {
+    cursor: pointer;
+}
+
+.seemore {
+    cursor: pointer;
+}
+
+div#content {
+    /*width: 1024px;*/
+    margin: 0 auto;
+
+}
+
+div.header {
+    width: 980px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+div.logo {
+    float: left;
+}
+
+div.nav {
+    float: right;
+    margin-top: 90px;
+    bottom: 0;
+}
+
+div.header ul li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+div.header ul li {
+    float: left;
+    width: 5em;
+    margin-right: 3px;
+    padding: 2px;
+    border: none;
+    background-color: #fff;
+    text-align: center;
+}
+
+div.header ul li a {
+    /*color: rgb(27, 153, 232);*/
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+div.header ul li a:hover {
+    color: rgb(27, 153, 232);
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+div.header ul li a.active {
+    color: rgb(27, 153, 232);
+    text-decoration: none;
+}
+
+div.main {
+    /*width: 980px;*/
+    clear: both;
+}
+
+div.footer {
+    margin: 0 auto;
+    width: 980px;
+    clear: both;
+}
+
+div.footer div.copyright {
+    margin-left: 30px;
+}
+
+div.footer div.copyright span {
+    font-size: 12px;
+    color: #666;
+}
+
+/*-------------------------------------------*/
+/* Home                                      */
+/*-------------------------------------------*/
+#home p {
+    font-size: .8em;
+    color: #666;
+}
+
+#home #main_image {
+    background: url(../images/home.jpg) no-repeat center top;
+    height: 485px;
+    overflow: hidden;
+}
+
+#home #slogan {
+    width: 980px;
+    margin: 30px auto;
+    text-align: right;
+}
+
+/*-------------------------------------------*/
+/* About                                     */
+/*-------------------------------------------*/
+#about {
+    margin: 30px auto;
+    text-align: right;
+}
+
+#about #description {
+    width: 980px;
+    margin: 30px auto;
+    text-align: right;
+}
+
+#about #description p {
+    font-size: .8em;
+    color: #888888;
+}
+
+#about #description p.runon {
+    font-size: 1em;
+    color: #707070;
+    margin-right: 20px;
+}
+
+#about #description p.title {
+    font-size: 2em;
+    color: #666;
+    margin: 10px 0;
+}
+
+/*-------------------------------------------*/
+/* Bicycle                                   */
+/*-------------------------------------------*/
+#bicycle {
+    width: 980px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#bicycle .visual {
+    width: 940px;
+    margin: 0 auto 30px auto;
+}
+
+#bicycle .introduce {
+    width: 940px;
+    margin: 0 auto 30px auto;
+}
+
+#bicycle .introduce h1 {
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 1.6em;
+}
+
+#bicycle .introduce p {
+    margin: 3px 0;
+    text-align: left;
+    font-size: .9em;
+}
+
+#bicycle .information {
+    width: 920px;
+    margin: 50px auto;
+}
+
+#bicycle .customize {
+    width: 315px;
+    float: left;
+}
+
+#bicycle .customize h1 {
+    text-align: left;
+    margin-bottom: 6px;
+    font-size: 1.0em;
+    color: #3c3c3c;
+}
+
+#bicycle .customize p {
+    color: #3c3c3c;
+    margin: 0 0 8px 30px;
+    text-align: left;
+    font-size: .8em;
+}
+
+#bicycle .customize img {
+    margin-bottom: 8px;
+}
+
+#bicycle .customize ul li {
+    list-style-type: none;
+    color: #3c3c3c;
+    margin: 3px 0 5px 10px;
+    text-align: left;
+    font-size: .8em;
+}
+
+#bicycle .price {
+    width: 315px;
+    margin: 0 auto 30px auto;
+    float: left;
+}
+
+#bicycle .price h1 {
+    text-align: left;
+    margin-bottom: 6px;
+    font-size: 1.0em;
+    color: #3c3c3c;
+}
+
+#bicycle .price img {
+    margin-bottom: 8px;
+}
+
+#bicycle .price p.head {
+    color: #3c3c3c;
+    margin: 0 0 8px 30px;
+    text-align: left;
+    font-size: .8em;
+}
+
+#bicycle .price ul li {
+    list-style-type: none;
+    color: #3c3c3c;
+    margin: 3px 0 5px 10px;
+    text-align: left;
+    font-size: .8em;
+}
+
+#bicycle .order {
+    width: 275px;
+    margin: 0 auto 30px auto;
+    float: left;
+}
+
+#bicycle .order h1 {
+    text-align: left;
+    margin-bottom: 6px;
+    font-size: 1.0em;
+    color: #3c3c3c;
+}
+
+#bicycle .order a {
+    color: #3c3c3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#bicycle .order p {
+    color: #3c3c3c;
+    margin: 0 0 8px 30px;
+    text-align: left;
+    font-size: .8em;
+}
+
+#bicycle .order ul li {
+    list-style-type: none;
+    color: #3c3c3c;
+    margin: 3px 0 5px 10px;
+    text-align: left;
+    font-size: .8em;
+}
+
+#bicycle #featured {
+    width: 940px;
+    margin: 30px auto;
+}
+
+#bicycle #featured .row {
+    margin-bottom: 51px;
+    padding-left: 0;
+    list-style: none;
+}
+
+#bicycle #featured .row .cell img:hover {
+    opacity: 0.8;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    -moz-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+#bicycle #featured .row2 {
+    margin-top: 50px;
+}
+
+#bicycle #featured .row2 .cell {
+    width: 270px;
+    height: 265px;
+    float: left;
+}
+
+#bicycle #featured .row2 .cell {
+    width: 270px;
+    height: 265px;
+    float: left;
+}
+
+#bicycle #featured .row2 .cell.left {
+    margin: 0 0 0 7px;
+}
+
+#bicycle #featured .row2 .cell.center {
+    margin: 0 0 0 40px;
+}
+
+#bicycle #featured .row2 .cell.right {
+    margin: 0 0 0 40px;
+}
+
+#bicycle #featured .row2 .cell img:hover {
+    opacity: 0.8;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    -moz-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+#bicycle #featured .pagination {
+    width: 900px;
+    text-align: right;
+}
+
+/*-------------------------------------------*/
+/* Product                                   */
+/*-------------------------------------------*/
+#product {
+    width: 980px;
+    margin: 30px auto;
+}
+
+#product .brand {
+    /*width: 100%;*/
+    width: 800px;
+    margin: 0 auto;
+    clear: both;
+}
+
+#product .brand .brand-logo {
+    float: left;
+    width: 250px;
+    height: 120px;
+    text-align: center;
+}
+
+#product .brand .brand-description h3.brand-name {
+    font-size: 1.2em;
+    color: #352f3a;
+    margin-bottom: 3px;
+}
+
+#product .brand .brand-desc {
+    float: left;
+    text-align: left;
+    width: 440px;
+}
+
+#product .brand .brand-desc p {
+    font-size: 0.8em;
+    color: #8c8c8c;
+    padding-top: 1px;
+}
+
+#product .brand .shop {
+    float: left;
+    text-align: left;
+    width: 70px;
+    margin-top: 13px;
+}
+
+#product .brand .hop a {
+    background-image: url("../images/shop.png");
+    width: 70px;
+    height: 32px;
+    text-indent: -999em;
+    display: block;
+}
+
+#product .brand .shop a:link {
+    background-image: url("../images/shop.png");
+    width: 70px;
+    height: 32px;
+    text-indent: -999em;
+    display: block;
+}
+
+#product .brand .shop a:hover {
+    background-position: 0 32px;
+}
+
+#product .lineup {
+    width: 980px;
+    margin: 0 auto;
+    clear: both;
+}
+
+#product .lineup .detail {
+    width: 275px;
+    margin: 0 20px;
+    float: left;
+    text-align: center;
+}
+
+#product .lineup .detail img:hover {
+    opacity: 0.6;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#product .lineup .detail p.product-name {
+    font-size: 1.0em;
+    color: #8c8c8c;
+}
+
+#product .lineup .detail p.product-desc {
+    font-size: 0.7em;
+    color: #8c8c8c;
+    padding-top: 1px;
+}
+
+#product .lineup .detail .product-thumbs {
+    width: 100%;
+    clear: both;
+    margin: 20px auto;
+}
+
+#product .lineup .detail .product-thumbs .product-thumbnail {
+    float: left;
+    width: 33%;
+}
+
+#product .lineup .detail .product-thumbs .product-thumbnail img:hover {
+    opacity: 0.6;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#product .lineup .product-info {
+    margin: 20px 0;
+}
+
+#product .lineup .product-info table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#product .lineup .product-info th {
+    border-bottom: 1px solid #d1d1d1;
+    padding: 10px 30px 2px 0;
+    font-weight: normal;
+    font-size: 0.9em;
+    color: #8c8c8c;
+    text-align: left;
+}
+
+#product .lineup .product-info td {
+    padding: 10px 30px 2px 0;
+    font-size: 0.8em;
+    color: #8c8c8c;
+}
+
+#product .lineup .product-info td.spec {
+    font-family: 'Courier New', Courier, Monaco, monospace;
+    vertical-align: text-top;
+    /*text-align:center;*/
+}
+
+#shop .shop-info table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#shop .shop-info th {
+    border-bottom: 1px solid #d1d1d1;
+    padding: 10px 30px 2px 0;
+    font-weight: normal;
+    font-size: 0.9em;
+    color: #8c8c8c;
+    text-align: left;
+}
+
+#shop .shop-info td {
+    padding: 10px 30px 2px 0;
+    font-size: 0.8em;
+    color: #8c8c8c;
+}
+
+#shop .shop-info td.title {
+    width: 60px;
+    font-family: 'Courier New', Courier, Monaco, monospace;
+    vertical-align: text-top;
+    /*text-align:center;*/
+}
+
+#shop .shop-info td.content {
+    font-family: 'Courier New', Courier, Monaco, monospace;
+    vertical-align: text-top;
+    /*text-align:center;*/
+}
+
+
+
+/*-------------------------------------------*/
+/* Contact                                   */
+/*-------------------------------------------*/
+#contact {
+    width: 980px;
+    margin: 30px auto;
+    text-align: right;
+    font-size: .8em;
+    color: #888888;
+}
+
+#contact .ss-item.ss-navigate {
+    float: right;
+}
+
+div.ss-footer {
+    /*float: right;*/
+    font-size: .8em;
+    color: #888888;
+}
+
+div#docs-aria-speakable {
+    float: right;
+}
+

@@ -1,0 +1,154 @@
+<div id="bicycle">
+    <div class="visual">
+        <img src="images/bicycle2.jpg" width="940" height="240"/>
+    </div>
+    <div class="introduce">
+        <h1>Custom-made bicycle</h1>
+
+        <p>runon セミオーダーメイド自転車</p>
+
+        <p>Mailにてカウンセリング、身体にあった設計</p>
+
+        <p>クラシカルなクロモリフレームにオススメ ／ 最新のパーツを装備したクラシカルモダンな自転車</p>
+    </div>
+
+    <div class="information">
+        <div class="customize">
+            <h1>Customize</h1>
+            <p>セミオーダー(Mail確認)</p>
+            <p>Size : 身長　股下　肩幅　腕</p>
+            <p>Color : 色 ／ メッキ</p>
+            <p>特殊工作等</p>
+            <p>納期 : 3ヶ月〜</p>
+            <p>made in Japan</p>
+        </div>
+
+        <div class="price">
+            <h1>Price</h1>
+
+            <p class="head">Frame</p>
+            <ul>
+                <li>Frame set(with fork) &nbsp;&yen;150,000 〜</li>
+            </ul>
+
+            <p class="head">Complete Bicycle</p>
+            <ul>
+                <li>Shimano 105class &nbsp;&yen;320,000 〜</li>
+                <li>Shimano Ultegra &nbsp;&nbsp;&nbsp;&yen;420,000 〜</li>
+                <li>Shimano Dura-Ace &yen;520,000 〜</li>
+            </ul>
+            <ul>
+                <li>税別、送料別</li>
+            </ul>
+        </div>
+        <div class="order">
+            <h1>Order</h1>
+            <p>詳細は<a href="/#/contact">Contact</a>よりお願いします</p>
+        </div>
+    </div>
+    <br class="clear">
+
+
+    <div id="featured">
+        <ul class="row">
+            <li class="cell left">
+                <a rel="frame" href="/images/bicycle/1.jpg" title="Side">
+                    <img class="thumb" src="/images/bicycle/1.png" width="270" height="165"/>
+                </a>
+            </li>
+            <li class="cell center">
+                <a rel="frame" href="/images/bicycle/2.jpg" title="Front runon logo">
+                    <img class="thumb" src="/images/bicycle/2.png" width="270" height="165"/>
+                </a>
+            </li>
+            <li class="cell right">
+                <a rel="frame" href="/images/bicycle/3.jpg" title="Rear">
+                    <img class="thumb" src="/images/bicycle/3.png" width="270" height="165"/>
+                </a>
+            </li>
+            <li class="cell left">
+                <a rel="frame" href="/images/bicycle/4.jpg" title="runon logo">
+                    <img class="thumb" src="/images/bicycle/4.png" width="270" height="165"/>
+                </a>
+            </li>
+            <li class="cell center">
+                <a rel="frame" href="/images/bicycle/5.jpg" title="Cable inner">
+                    <img class="thumb" src="/images/bicycle/5.png" width="270" height="165"/>
+                </a>
+            </li>
+            <li class="cell right">
+                <a rel="frame" href="/images/bicycle/6.jpg" title="Back side">
+                    <img class="thumb" src="/images/bicycle/6.png" width="270" height="165"/>
+                </a>
+            </li>
+            <li class="cell left">
+                <a rel="frame" href="/images/bicycle/7.jpg" title="Inner Seat">
+                    <img class="thumb" src="/images/bicycle/7.png" width="270" height="165"/>
+                </a>
+            </li>
+            <li class="cell center">
+                <a rel="frame" href="/images/bicycle/9.jpg" title="">
+                    <img class="thumb" src="/images/bicycle/9.png" width="270" height="165"/>
+                </a>
+            </li>
+        </ul>
+        <div class="pagination">
+            <span class="seemore">See more</span>
+        </div>
+
+        <br class="clear">
+
+        <div class="row2">
+            <div class="cell left">
+                <a rel="complete" href="/images/bicycle/9-2.jpg" title="Silver parts(Dura-ace,sugino,lather)<br>Dura-ace, 2x10sp,Sugino Crank sets, Leather bar tape, Vittoria tire, Nitto, Tange Head parts">
+                    <img class="thumb" src="/images/bicycle/9-2.png" width="270" height="265"/>
+                </a>
+            </div>
+            <div class="cell center">
+                <a rel="complete" href="/images/bicycle/10.jpg" title="Silver parts(Dura-ace,sugino,lather)">
+                    <img class="thumb" src="/images/bicycle/10.png" width="270" height="265"/>
+                </a>
+            </div>
+            <div class="cell right">
+                <a rel="complete" href="/images/bicycle/11.jpg" title="Silver parts(Dura-ace,sugino,lather)">
+                    <img class="thumb" src="/images/bicycle/11.png" width="270" height="265"/>
+                </a>
+            </div>
+            <br class="clear">
+        </div>
+    </div>
+
+    <br>
+
+    <script>
+        $(function () {
+            $("ul.row").simplecarousel({
+                width: 310,
+                height: 185,
+                visible: 3,
+                slidespeed: 200,
+                next: $('.seemore')
+            });
+            $("a[rel=frame]").fancybox({
+                'transitionIn': 'none',
+                'transitionOut': 'none',
+                'titlePosition': 'outside',
+                'overlayColor': '#000',
+                'overlayOpacity': 0.9,
+                'titleFormat': function (title, currentArray, currentIndex, currentOpts) {
+                    return '<span id="fancybox-title-over">[' + (currentIndex + 1) + ' / ' + currentArray.length + ']' + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+                }
+            });
+            $("a[rel=complete]").fancybox({
+                'transitionIn': 'none',
+                'transitionOut': 'none',
+                'titlePosition': 'outside',
+                'overlayColor': '#000',
+                'overlayOpacity': 0.9,
+                'titleFormat': function (title, currentArray, currentIndex, currentOpts) {
+                    return '<span id="fancybox-title-over">[' + (currentIndex + 1) + ' / ' + currentArray.length + ']' + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+                }
+            });
+
+        });
+    </script>

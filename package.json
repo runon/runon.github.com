@@ -1,0 +1,7 @@
+{
+	"name": "runon",
+	"version": "0.0.1",
+	"devDependencies": {
+		"http-server": "0.5.3"
+	}
+}
