@@ -6,7 +6,7 @@ angular.module('runon', ['ngRoute', 'ngAnimate'])
 		};
 		var page = {
 			controller: 'MainCtrl',
-			templateUrl: './pages/'
+			templateUrl: './pages/none.html'
 		};
 		$routeProvider
 			.when('/', home)
