@@ -508,6 +508,11 @@ div.footer div.copyright span {
     /*text-align:center;*/
 }
 
+#shop .shop-info .shop-info-title {
+    margin-left: 14px;
+    color: #8c8c8c;
+}
+
 #shop .shop-info table {
     border-collapse: collapse;
     width: 90%;
@@ -542,6 +547,10 @@ div.footer div.copyright span {
     /*text-align:center;*/
 }
 
+#shop .shop-info .small {
+    font-family: 'Courier New', Courier, Monaco, monospace;
+    font-size: 0.8em;
+}
 
 
 /*-------------------------------------------*/
