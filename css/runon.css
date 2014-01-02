@@ -126,12 +126,19 @@ div.footer div.copyright span {
 @media screen and (max-width: 1024px) {
     #home #main_image {
         background: url(../images/home1024.jpg) no-repeat center top;
-        height: 384px;
+        height: 485px;
         overflow: hidden;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    #home #main_image {
+        background: url(../images/home1280.jpg) no-repeat center top;
+        height: 485px;
+        overflow: hidden;
+    }
+}
+@media screen and (min-width: 1280px) {
     #home #main_image {
         background: url(../images/home.jpg) no-repeat center top;
         height: 485px;
