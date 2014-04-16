@@ -24,7 +24,9 @@ angular.module('runon', ['ngRoute', 'ngAnimate'])
 		}
 		$rootScope.page = p;
 		$rootScope.title = p;
-//		$scope.$on('$viewContentLoaded', function(){});
+		$scope.$on('$viewContentLoaded', function(){
+            $templateCache.removeAll();
+        });
 		$route.current.templateUrl = 'pages/' + p + ".html";
 		$.get($route.current.templateUrl, function (data) {
 			$scope.$apply(function () {

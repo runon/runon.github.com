@@ -321,13 +321,13 @@ div.footer div.copyright span {
     margin: 30px auto;
 }
 
-#bicycle #featured .row {
+#bicycle #featured .slide {
     margin-bottom: 51px;
     padding-left: 0;
     list-style: none;
 }
 
-#bicycle #featured .row .cell img:hover {
+#bicycle #featured .slide .cell img:hover {
     opacity: 0.8;
     -webkit-transition: opacity 0.1s ease-in-out;
     -moz-transition: opacity 0.1s ease-in-out;
