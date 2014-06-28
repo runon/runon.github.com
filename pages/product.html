@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="detail">
-            <a rel="BrownHoleDesign" href="images/product/C-B-1.jpg" title="Vintage Classic">
+            <a rel="VintageClassic" href="images/product/C-B-1.jpg" title="Vintage Classic">
                 <img src="images/product/C-B-1.png"/>
             </a>
         </div>
@@ -211,6 +211,16 @@ $(function(){
         }
     });
     $("a[rel=BrownHoleDesign]").fancybox({
+        'transitionIn': 'none',
+        'transitionOut': 'none',
+        'titlePosition': 'outside',
+        'overlayColor': '#000',
+        'overlayOpacity': 0.9,
+        'titleFormat': function (title, currentArray, currentIndex, currentOpts) {
+            return '<span id="fancybox-title-over">[' + (currentIndex + 1) + ' / ' + currentArray.length + ']' + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+        }
+    });
+    $("a[rel=VintageClassic]").fancybox({
         'transitionIn': 'none',
         'transitionOut': 'none',
         'titlePosition': 'outside',
