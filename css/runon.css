@@ -464,11 +464,6 @@ div.footer div.copyright span {
     cursor: pointer;
 }
 
-#product .lineup .detail p.product-name {
-    font-size: 1.0em;
-    color: #8c8c8c;
-}
-
 #product .lineup .detail p.product-desc {
     font-size: 0.7em;
     color: #8c8c8c;
@@ -484,6 +479,11 @@ div.footer div.copyright span {
 #product .lineup .detail .product-thumbs .product-thumbnail {
     float: left;
     width: 33%;
+}
+
+#product .lineup .detail p.product-color {
+    font-size: 1.0em;
+    color: #8c8c8c;
 }
 
 #product .lineup .detail .product-thumbs .product-thumbnail img:hover {
@@ -569,6 +569,40 @@ div.footer div.copyright span {
     font-size: 0.8em;
 }
 
+/* --- */
+
+#product .lineup .detail3 {
+    width: 825px;
+    margin: 0 20px;
+    float: left;
+    text-align: center;
+}
+
+#product .lineup .detail2 {
+    width: 550px;
+    margin: 0 20px;
+    float: left;
+    text-align: center;
+}
+
+#product .lineup .product-title h3.product-name {
+    font-size: 1.0em;
+    color: #8c8c8c;
+    padding-top: 1px;
+}
+
+#product .lineup .product-title {
+    width: 100%;
+    clear: both;
+    text-align: left;
+}
+
+#product .lineup .product-title p {
+    color: #8c8c8c;
+    font-size: 0.8em;
+    padding-top: 1px;
+    margin-left: 10px;
+}
 
 /*-------------------------------------------*/
 /* Contact                                   */
